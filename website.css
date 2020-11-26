@@ -1,0 +1,236 @@
+<style>
+	body {
+		font: 400 15px Lato, sans-serif;
+		line-height: 1.8;
+		color: #818181;
+		height: 100%
+	}
+	html {
+		height: 100%;
+	}
+  
+	h2 {
+		padding-left:17%;
+	} 
+   
+   .self img {
+		height: 250px;
+		width: 320px;
+		border-radius:20%;
+	}
+	
+	.aboutMe li {
+		display: inline;
+		padding-left: 35px;  
+		padding-right: 35px;
+		font-size: 18px;
+	} 
+  
+	.footer li {
+		list-style: none;
+		padding-bottom: 8px;
+	}
+  
+	.space {
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+  
+	h4 {
+		font-size: 21px;
+		line-height: 1.375em;
+		color: #303030;
+		font-weight: 400;
+		margin-bottom: 30px;
+    }
+	
+	.hobbies img {
+		height: 50px;
+		width: 50px;
+	} 
+	
+	img {
+		height: 150px;
+		width: 150px;
+	}	
+	 
+	.projects img {
+		height: 115px;
+		width: 115px;		
+	}  
+	
+	img.bounceImage {
+		margin:20px;
+		padding:3px;
+		border:#a1a1a1;	
+		-webkit-transition: margin 0.5s ease-out;
+		-moz-transition: margin 0.5s ease-out;
+		-o-transition: margin 0.5s ease-out;
+	}
+	
+	img.bounceImage:hover {
+		cursor:pointer;
+		margin-top: 5px;
+	}
+	
+	.footerImage {
+		height: 22px;
+		width: 22px;
+	}
+
+	h3 {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.resumePicture {
+		content: url(resume.png);	
+		height: 130px;
+		width: 105px;
+	}
+
+	.blueBanner {
+		content: url(blueBanner.png);
+		height:150px;
+		width:580px;
+	}
+	
+	.yellowBanner {
+		content: url(yellowBanner.png);
+		height: 130px;
+		width: 550px;
+	}
+	
+	.redBanner {
+		content: url(redBanner.png);
+		height: 100px;
+		width: 400px;
+	}
+	
+	.greenBanner {
+		content: url(greenBanner.png);
+		height: 130px;
+		width: 450px;
+	}
+	
+	.bgimage {
+		background-image: url(footer3.png);
+		background-size: cover;
+	} 
+
+	.bgimageresume {
+		background-image: url(resumeBanner.png);
+		background-size: cover;
+	}
+
+	.header {
+		height: 100vh;
+		width: 100vw;	 
+		background-image: url(headerImage.png);
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+
+	.element{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		color: white;
+	}
+ 
+	.container-fluid {
+		padding: 30px 30px;
+	}
+	
+	.logo-small {
+		color: #003380;
+    }
+	.logo {
+		color: #003380;
+    }
+
+	.center {
+		text-align: center;
+	}  
+
+	.navbar {
+		margin-bottom: 0;
+		background-color: #000000; opacity: 0.8; filter: alpha(opacity=50); 
+		z-index: 9999;
+		border: 0;
+		font-size: 12px !important;
+		line-height: 1.42857143 !important;
+		letter-spacing: 4px;
+		border-radius: 0;
+		font-family: Montserrat, sans-serif;
+	}
+	
+	.navbar li a, .navbar .navbar-brand {
+		color: #fff !important;
+	}
+	
+	.navbar-nav li a:hover, .navbar-nav li.active a {
+		color: #000000 !important;
+		background-color: #fff !important;
+	}
+	
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+		color: #000000 !important;
+	}
+	
+	.slideanim {
+		visibility:hidden;
+	}
+	
+	.slide {
+		animation-name: slide;
+		-webkit-animation-name: slide;	
+		animation-duration: 1s;	
+		-webkit-animation-duration: 1s;
+		visibility: visible;			
+	}
+	
+	@keyframes slide {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateY(70%);
+		} 
+		100% {
+			opacity: 1;
+			-webkit-transform: translateY(0%);
+		}	
+	}
+	
+	@-webkit-keyframes slide {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateY(70%);
+		} 
+		100% {
+			opacity: 1;
+			-webkit-transform: translateY(0%);
+		}
+	}
+	
+	@media screen and (max-width: 768px) {
+		.col-sm-4 {
+			text-align: center;
+			margin: 25px 0;
+		}
+		.btn-lg {
+			width: 100%;
+			margin-bottom: 35px;
+		}
+	}
+  
+	@media screen and (max-width: 480px) {
+		.logo {
+			font-size: 150px;
+		}
+	}
+
+	.cursive {
+		font-family: 'Gloria Hallelujah', cursive;	
+	}
+  </style>
